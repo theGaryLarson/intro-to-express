@@ -1,6 +1,6 @@
 import {MONGO_API_KEY} from "./config.js";
 
-export async function fetchData() {
+export async function fetchOne() {
     try {
 
         const response = await fetch('https://data.mongodb-api.com/app/data-ryajg/endpoint/data/beta/action/findOne', {
