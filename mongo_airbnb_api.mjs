@@ -38,7 +38,7 @@ export async function display_listing() {
 
     ////////////////////////////////////////////////////////////
     //  THESE ARE COMMENTED OUT FOR CONSOLE TESTING           //
-    //  BECAUSE CHROME IS SAYING THESE METHODS IS UNDEFINED.  //
+    //  BECAUSE CHROME IS SAYING THESE METHODS ARE UNDEFINED. //
     ////////////////////////////////////////////////////////////
 
     // const listing_url = document.getElementById("url");
