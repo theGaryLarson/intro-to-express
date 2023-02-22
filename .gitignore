@@ -103,10 +103,9 @@ dist
 # TernJS port file
 .tern-port
 /.idea/vcs.xml
-/mongo_fetch.mjs
 /.idea/modules.xml
 /.idea/misc.xml
 /.idea/checkstyle-idea.xml
 /.idea/intro-to-express.iml
 /.idea/.gitignore
-/config.js
+/config.mjs
