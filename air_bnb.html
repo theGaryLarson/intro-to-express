@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AirBNB Listing</title>
+</head>
+<body>
+    <button onclick="display_listing()">Fetch One</button>
+    <p id="url"></p>
+    <p id="name"></p>
+    <p id="summary"></p>
+    <p id="property_type"></p>
+    <p id="cancellation_policy"></p>
+<!-- Including the type attribute module to quit getting an error in chrome -->
+    <script type="module" defer src="./mongo_airbnb_api.mjs">
+        import {display_listing} from './mongo_airbnb_api.mjs';
+    </script>
+</body>
+</html>
