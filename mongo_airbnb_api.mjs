@@ -36,6 +36,11 @@ export async function display_listing() {
     console.log("display listing tests");
     const doc = listing.document;
 
+    ////////////////////////////////////////////////////////////
+    //  THESE ARE COMMENTED OUT FOR CONSOLE TESTING           //
+    //  BECAUSE CHROME IS SAYING THESE METHODS IS UNDEFINED.  //
+    ////////////////////////////////////////////////////////////
+
     // const listing_url = document.getElementById("url");
     // const name = document.getElementById("name");
     // const summary = document.getElementById("summary");
@@ -48,5 +53,5 @@ export async function display_listing() {
     // property_type.innerHTML = doc.property_type;
     // policy.innerHTML = doc.cancellation_policy;
 
-    return doc.property_type;
+    return doc;
 }
