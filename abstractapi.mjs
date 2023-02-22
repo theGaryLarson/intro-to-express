@@ -1,5 +1,5 @@
 
-import {CODEX_API_KEY} from "./config.js";
+import {CODEX_API_KEY} from "./config.mjs";
 
 const url = 'https://api.openai.com/v1/moderations';
 const headers = {
